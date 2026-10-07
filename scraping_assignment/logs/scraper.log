@@ -1,0 +1,88 @@
+2026-10-07 18:04:57,878 [INFO] [ETLPipeline] ==================================================
+2026-10-07 18:04:57,878 [INFO] [ETLPipeline] Starting Web Scraping & ETL Data Pipeline Execution
+2026-10-07 18:04:57,879 [INFO] [ETLPipeline] Active Sources: books, quotes
+2026-10-07 18:04:57,879 [INFO] [ETLPipeline] Politeness Delay: 0.50s | Timeout: 10.0s
+2026-10-07 18:04:57,879 [INFO] [ETLPipeline] ==================================================
+2026-10-07 18:04:57,879 [INFO] [ETLPipeline] --- Phase 1A: Extracting Books to Scrape ---
+2026-10-07 18:04:57,879 [INFO] [scrapers.books_scraper] Starting Books scraping from: https://books.toscrape.com/
+2026-10-07 18:04:59,637 [INFO] [scrapers.books_scraper] Visited page 1: https://books.toscrape.com/ (Extracted 20 books, cumulative: 20)
+2026-10-07 18:05:00,751 [INFO] [scrapers.books_scraper] Visited page 2: https://books.toscrape.com/catalogue/page-2.html (Extracted 20 books, cumulative: 40)
+2026-10-07 18:05:01,828 [INFO] [scrapers.books_scraper] Visited page 3: https://books.toscrape.com/catalogue/page-3.html (Extracted 20 books, cumulative: 60)
+2026-10-07 18:05:02,994 [INFO] [scrapers.books_scraper] Visited page 4: https://books.toscrape.com/catalogue/page-4.html (Extracted 20 books, cumulative: 80)
+2026-10-07 18:05:04,121 [INFO] [scrapers.books_scraper] Visited page 5: https://books.toscrape.com/catalogue/page-5.html (Extracted 20 books, cumulative: 100)
+2026-10-07 18:05:05,249 [INFO] [scrapers.books_scraper] Visited page 6: https://books.toscrape.com/catalogue/page-6.html (Extracted 20 books, cumulative: 120)
+2026-10-07 18:05:06,400 [INFO] [scrapers.books_scraper] Visited page 7: https://books.toscrape.com/catalogue/page-7.html (Extracted 20 books, cumulative: 140)
+2026-10-07 18:05:07,558 [INFO] [scrapers.books_scraper] Visited page 8: https://books.toscrape.com/catalogue/page-8.html (Extracted 20 books, cumulative: 160)
+2026-10-07 18:05:08,624 [INFO] [scrapers.books_scraper] Visited page 9: https://books.toscrape.com/catalogue/page-9.html (Extracted 20 books, cumulative: 180)
+2026-10-07 18:05:09,748 [INFO] [scrapers.books_scraper] Visited page 10: https://books.toscrape.com/catalogue/page-10.html (Extracted 20 books, cumulative: 200)
+2026-10-07 18:05:10,880 [INFO] [scrapers.books_scraper] Visited page 11: https://books.toscrape.com/catalogue/page-11.html (Extracted 20 books, cumulative: 220)
+2026-10-07 18:05:12,008 [INFO] [scrapers.books_scraper] Visited page 12: https://books.toscrape.com/catalogue/page-12.html (Extracted 20 books, cumulative: 240)
+2026-10-07 18:05:13,127 [INFO] [scrapers.books_scraper] Visited page 13: https://books.toscrape.com/catalogue/page-13.html (Extracted 20 books, cumulative: 260)
+2026-10-07 18:05:14,231 [INFO] [scrapers.books_scraper] Visited page 14: https://books.toscrape.com/catalogue/page-14.html (Extracted 20 books, cumulative: 280)
+2026-10-07 18:05:15,282 [INFO] [scrapers.books_scraper] Visited page 15: https://books.toscrape.com/catalogue/page-15.html (Extracted 20 books, cumulative: 300)
+2026-10-07 18:05:16,291 [INFO] [scrapers.books_scraper] Visited page 16: https://books.toscrape.com/catalogue/page-16.html (Extracted 20 books, cumulative: 320)
+2026-10-07 18:05:17,432 [INFO] [scrapers.books_scraper] Visited page 17: https://books.toscrape.com/catalogue/page-17.html (Extracted 20 books, cumulative: 340)
+2026-10-07 18:05:18,561 [INFO] [scrapers.books_scraper] Visited page 18: https://books.toscrape.com/catalogue/page-18.html (Extracted 20 books, cumulative: 360)
+2026-10-07 18:05:19,687 [INFO] [scrapers.books_scraper] Visited page 19: https://books.toscrape.com/catalogue/page-19.html (Extracted 20 books, cumulative: 380)
+2026-10-07 18:05:20,875 [INFO] [scrapers.books_scraper] Visited page 20: https://books.toscrape.com/catalogue/page-20.html (Extracted 20 books, cumulative: 400)
+2026-10-07 18:05:22,121 [INFO] [scrapers.books_scraper] Visited page 21: https://books.toscrape.com/catalogue/page-21.html (Extracted 20 books, cumulative: 420)
+2026-10-07 18:05:23,459 [INFO] [scrapers.books_scraper] Visited page 22: https://books.toscrape.com/catalogue/page-22.html (Extracted 20 books, cumulative: 440)
+2026-10-07 18:05:24,687 [INFO] [scrapers.books_scraper] Visited page 23: https://books.toscrape.com/catalogue/page-23.html (Extracted 20 books, cumulative: 460)
+2026-10-07 18:05:25,919 [INFO] [scrapers.books_scraper] Visited page 24: https://books.toscrape.com/catalogue/page-24.html (Extracted 20 books, cumulative: 480)
+2026-10-07 18:05:27,390 [INFO] [scrapers.books_scraper] Visited page 25: https://books.toscrape.com/catalogue/page-25.html (Extracted 20 books, cumulative: 500)
+2026-10-07 18:05:28,516 [INFO] [scrapers.books_scraper] Visited page 26: https://books.toscrape.com/catalogue/page-26.html (Extracted 20 books, cumulative: 520)
+2026-10-07 18:05:29,724 [INFO] [scrapers.books_scraper] Visited page 27: https://books.toscrape.com/catalogue/page-27.html (Extracted 20 books, cumulative: 540)
+2026-10-07 18:05:30,943 [INFO] [scrapers.books_scraper] Visited page 28: https://books.toscrape.com/catalogue/page-28.html (Extracted 20 books, cumulative: 560)
+2026-10-07 18:05:32,273 [INFO] [scrapers.books_scraper] Visited page 29: https://books.toscrape.com/catalogue/page-29.html (Extracted 20 books, cumulative: 580)
+2026-10-07 18:05:33,503 [INFO] [scrapers.books_scraper] Visited page 30: https://books.toscrape.com/catalogue/page-30.html (Extracted 20 books, cumulative: 600)
+2026-10-07 18:05:34,836 [INFO] [scrapers.books_scraper] Visited page 31: https://books.toscrape.com/catalogue/page-31.html (Extracted 20 books, cumulative: 620)
+2026-10-07 18:05:36,067 [INFO] [scrapers.books_scraper] Visited page 32: https://books.toscrape.com/catalogue/page-32.html (Extracted 20 books, cumulative: 640)
+2026-10-07 18:05:37,297 [INFO] [scrapers.books_scraper] Visited page 33: https://books.toscrape.com/catalogue/page-33.html (Extracted 20 books, cumulative: 660)
+2026-10-07 18:05:38,683 [INFO] [scrapers.books_scraper] Visited page 34: https://books.toscrape.com/catalogue/page-34.html (Extracted 20 books, cumulative: 680)
+2026-10-07 18:05:39,845 [INFO] [scrapers.books_scraper] Visited page 35: https://books.toscrape.com/catalogue/page-35.html (Extracted 20 books, cumulative: 700)
+2026-10-07 18:05:40,978 [INFO] [scrapers.books_scraper] Visited page 36: https://books.toscrape.com/catalogue/page-36.html (Extracted 20 books, cumulative: 720)
+2026-10-07 18:05:42,180 [INFO] [scrapers.books_scraper] Visited page 37: https://books.toscrape.com/catalogue/page-37.html (Extracted 20 books, cumulative: 740)
+2026-10-07 18:05:43,444 [INFO] [scrapers.books_scraper] Visited page 38: https://books.toscrape.com/catalogue/page-38.html (Extracted 20 books, cumulative: 760)
+2026-10-07 18:05:44,757 [INFO] [scrapers.books_scraper] Visited page 39: https://books.toscrape.com/catalogue/page-39.html (Extracted 20 books, cumulative: 780)
+2026-10-07 18:05:46,094 [INFO] [scrapers.books_scraper] Visited page 40: https://books.toscrape.com/catalogue/page-40.html (Extracted 20 books, cumulative: 800)
+2026-10-07 18:05:47,439 [INFO] [scrapers.books_scraper] Visited page 41: https://books.toscrape.com/catalogue/page-41.html (Extracted 20 books, cumulative: 820)
+2026-10-07 18:05:48,692 [INFO] [scrapers.books_scraper] Visited page 42: https://books.toscrape.com/catalogue/page-42.html (Extracted 20 books, cumulative: 840)
+2026-10-07 18:05:49,982 [INFO] [scrapers.books_scraper] Visited page 43: https://books.toscrape.com/catalogue/page-43.html (Extracted 20 books, cumulative: 860)
+2026-10-07 18:05:51,349 [INFO] [scrapers.books_scraper] Visited page 44: https://books.toscrape.com/catalogue/page-44.html (Extracted 20 books, cumulative: 880)
+2026-10-07 18:05:52,649 [INFO] [scrapers.books_scraper] Visited page 45: https://books.toscrape.com/catalogue/page-45.html (Extracted 20 books, cumulative: 900)
+2026-10-07 18:05:53,897 [INFO] [scrapers.books_scraper] Visited page 46: https://books.toscrape.com/catalogue/page-46.html (Extracted 20 books, cumulative: 920)
+2026-10-07 18:05:55,117 [INFO] [scrapers.books_scraper] Visited page 47: https://books.toscrape.com/catalogue/page-47.html (Extracted 20 books, cumulative: 940)
+2026-10-07 18:05:56,348 [INFO] [scrapers.books_scraper] Visited page 48: https://books.toscrape.com/catalogue/page-48.html (Extracted 20 books, cumulative: 960)
+2026-10-07 18:05:57,565 [INFO] [scrapers.books_scraper] Visited page 49: https://books.toscrape.com/catalogue/page-49.html (Extracted 20 books, cumulative: 980)
+2026-10-07 18:05:58,779 [INFO] [scrapers.books_scraper] Visited page 50: https://books.toscrape.com/catalogue/page-50.html (Extracted 20 books, cumulative: 1000)
+2026-10-07 18:05:58,783 [INFO] [scrapers.books_scraper] No next page link found at page 50. Pagination complete.
+2026-10-07 18:05:58,784 [INFO] [scrapers.books_scraper] Finished Books scraping: 1000 raw records extracted across 50 pages.
+2026-10-07 18:05:58,784 [INFO] [ETLPipeline] Extracted 1000 raw records from Books.
+2026-10-07 18:05:58,786 [INFO] [ETLPipeline] --- Phase 1B: Extracting Quotes to Scrape ---
+2026-10-07 18:05:58,787 [INFO] [scrapers.quotes_scraper] Starting Quotes scraping from: https://quotes.toscrape.com/
+2026-10-07 18:06:00,264 [INFO] [scrapers.quotes_scraper] Visited page 1: https://quotes.toscrape.com/ (Extracted 10 quotes, cumulative: 10)
+2026-10-07 18:06:01,424 [INFO] [scrapers.quotes_scraper] Visited page 2: https://quotes.toscrape.com/page/2/ (Extracted 10 quotes, cumulative: 20)
+2026-10-07 18:06:02,335 [INFO] [scrapers.quotes_scraper] Visited page 3: https://quotes.toscrape.com/page/3/ (Extracted 10 quotes, cumulative: 30)
+2026-10-07 18:06:03,482 [INFO] [scrapers.quotes_scraper] Visited page 4: https://quotes.toscrape.com/page/4/ (Extracted 10 quotes, cumulative: 40)
+2026-10-07 18:06:04,693 [INFO] [scrapers.quotes_scraper] Visited page 5: https://quotes.toscrape.com/page/5/ (Extracted 10 quotes, cumulative: 50)
+2026-10-07 18:06:05,820 [INFO] [scrapers.quotes_scraper] Visited page 6: https://quotes.toscrape.com/page/6/ (Extracted 10 quotes, cumulative: 60)
+2026-10-07 18:06:06,945 [INFO] [scrapers.quotes_scraper] Visited page 7: https://quotes.toscrape.com/page/7/ (Extracted 10 quotes, cumulative: 70)
+2026-10-07 18:06:08,073 [INFO] [scrapers.quotes_scraper] Visited page 8: https://quotes.toscrape.com/page/8/ (Extracted 10 quotes, cumulative: 80)
+2026-10-07 18:06:09,203 [INFO] [scrapers.quotes_scraper] Visited page 9: https://quotes.toscrape.com/page/9/ (Extracted 10 quotes, cumulative: 90)
+2026-10-07 18:06:10,322 [INFO] [scrapers.quotes_scraper] Visited page 10: https://quotes.toscrape.com/page/10/ (Extracted 10 quotes, cumulative: 100)
+2026-10-07 18:06:10,324 [INFO] [scrapers.quotes_scraper] No next page link found at page 10. Pagination complete.
+2026-10-07 18:06:10,325 [INFO] [scrapers.quotes_scraper] Finished Quotes scraping: 100 raw records extracted across 10 pages.
+2026-10-07 18:06:10,325 [INFO] [ETLPipeline] Extracted 100 raw records from Quotes.
+2026-10-07 18:06:10,327 [INFO] [ETLPipeline] --- Phase 2: Cleaning and Normalizing Records ---
+2026-10-07 18:06:10,348 [INFO] [ETLPipeline] Cleaned 1100 records into common schema format.
+2026-10-07 18:06:10,348 [INFO] [ETLPipeline] --- Phase 3: Validating Records ---
+2026-10-07 18:06:10,360 [INFO] [ETLPipeline] Validation complete: 1100 valid records, 0 rejected records.
+2026-10-07 18:06:10,360 [INFO] [ETLPipeline] --- Phase 4: Deduplicating Records ---
+2026-10-07 18:06:10,372 [INFO] [processing.deduplication] Deduplication complete: 1099 unique records, 1 duplicate records identified.
+2026-10-07 18:06:10,372 [INFO] [ETLPipeline] Deduplication complete: 1099 unique records, 1 duplicates removed.
+2026-10-07 18:06:10,372 [INFO] [ETLPipeline] Writing consolidated dataset to: C:\Users\sashi kumar\OneDrive\Desktop\next_wave\scraping_assignment\output\final_dataset.csv
+2026-10-07 18:06:10,427 [INFO] [ETLPipeline] Saved summary report to: C:\Users\sashi kumar\OneDrive\Desktop\next_wave\scraping_assignment\output\summary_report.json
+2026-10-07 18:06:10,427 [INFO] [ETLPipeline] ==================================================
+2026-10-07 18:06:10,427 [INFO] [ETLPipeline] Pipeline completed successfully in 72.51 seconds!
+2026-10-07 18:06:10,428 [INFO] [ETLPipeline] Final Clean Unique Records Saved: 1099
+2026-10-07 18:06:10,428 [INFO] [ETLPipeline] ==================================================

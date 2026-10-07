@@ -1,0 +1,37 @@
+{
+  "pipeline_run": {
+    "start_time": "2026-10-07T12:34:57.878459+00:00",
+    "end_time": "2026-10-07T12:36:10.385192+00:00",
+    "duration_seconds": 72.51,
+    "sources_configured": [
+      "books",
+      "quotes"
+    ],
+    "politeness_delay_seconds": 0.5
+  },
+  "source_statistics": {
+    "books": {
+      "status": "SUCCESS",
+      "raw_records": 1000,
+      "final_records": 999
+    },
+    "quotes": {
+      "status": "SUCCESS",
+      "raw_records": 100,
+      "final_records": 100
+    }
+  },
+  "metrics_summary": {
+    "total_raw_records": 1100,
+    "total_cleaned_records": 1100,
+    "total_valid_records": 1100,
+    "total_rejected_records": 0,
+    "rejected_by_reason": {},
+    "duplicate_records_removed": 1,
+    "final_clean_unique_records": 1099
+  },
+  "outputs": {
+    "csv_path": "C:\\Users\\sashi kumar\\OneDrive\\Desktop\\next_wave\\scraping_assignment\\output\\final_dataset.csv",
+    "log_path": "C:\\Users\\sashi kumar\\OneDrive\\Desktop\\next_wave\\scraping_assignment\\logs\\scraper.log"
+  }
+}
